@@ -1,0 +1,64 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+
+#container{
+  margin: 5% 20% 10% 20%;
+  background: rgba(0,0,0,0.6); /*modo per rendere opaco solo contenitore padre*/
+  border-radius: 20px;
+  padding: 5%
+}
+
+#logo{
+  width: 25%;
+  display: block;
+  margin: auto;
+}
+
+h2{
+  color: #00ff00;
+  text-align: center;
+  margin: 0.4%;
+}
+
+.prenotationbox{
+  background-color: #00ff00;
+  padding: 1%;
+  text-align: center;
+}
+
+.scooter{
+  color: #ffffff;
+  padding-top: 3%;
+}
+
+.scooter > div{
+  margin: 0.4%;
+  font-size: 75%;
+}
+
+h3{
+  display: inline;
+}
+
+.bar{    /*elementi in comune ad tutte le barre*/
+  height: 22px;
+  border-radius: 5px;
+}
+
+.bar1{
+  background-color: #ffa500;
+  width: 35%;
+}
+
+.bar2{
+  background-color: #00ff00;
+  width: 60%;
+}
+
+.bar3{
+  background-color: #dc143c;
+  width: 15%;
+}
